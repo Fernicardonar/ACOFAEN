@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.useLocalIp": false,
+        "liveServer.settings.CustomBrowser": null,
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.wait": 500
+}

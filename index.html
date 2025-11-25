@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Mapa conceptual interactivo de competencias y resultados de aprendizaje en enfermería - ACOFAEN" />
+        <title>ACOFAEN - Mapa Conceptual Interactivo</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <a href="#visor-arbol" class="skip-link" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;">Saltar al mapa</a>
+        <main id="app" role="main" aria-label="Visualizador de mapa conceptual de enfermería">
+            <header>
+                <h1>🎓 Mapa de Contenidos Interactivo Profesional Enfermería ACOFAEN</h1>
+                <h2 style="text-align:center;color:#fff;margin-bottom:6px;font-size:1.4em;">Competencia General</h2>
+                <p>Ejercer el cuidado de enfermería integral y humanizado que se brinda a la persona, familia y comunidad a lo largo del curso de vida, en los diferentes niveles de complejidad y atención en salud, de forma interprofesional, intercultural, intersectorial, diferencial e inclusiva, en múltiples sectores: sanitario, social, educativo, del trabajo, de emprendimiento, investigación y tecnología, mediante acciones de promoción de la salud, detección temprana, protección específica, diagnóstico, tratamiento, recuperación, rehabilitación, cuidados paliativos y al final de la vida; con conciencia ética, pensamiento crítico, reflexivo e innovador, dentro del marco normativo de su ejercicio profesional, contribuyendo al bienestar y al cuidado de la salud de la población.</p>
+                <div id="controles-header" style="display:flex;align-items:center;justify-content:center;gap:15px;flex-wrap:wrap;margin-top:10px;">
+                    <p style="margin:0;">Haz clic o usa Enter/Espacio en los elementos para expandir su contenido.</p>
+                    <div id="controles-globales"></div>
+                </div>
+            </header>
+            <div id="visor-arbol" aria-live="polite"></div>
+        </main>
+
+        <script src="datos.js"></script>
+        <script src="script.js"></script>
+        <script>
+            if (window.location.protocol === 'file:') {
+                console.log('💡 Para recarga automática instala Live Server (ritwickdey.LiveServer)');
+            }
+        </script>
+    </body>
+</html>
