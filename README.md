@@ -123,3 +123,75 @@ Proyecto educativo de código abierto.
 - Validación automática de estructura (`node validate-datos.js`).
 
 **Desarrollado para ACOFAEN** 🎓
+
+---
+
+# 📄 Especificaciones técnicas y condiciones de integración institucional
+
+## 1. Descripción General
+Visualizador interactivo de contenidos educativos tipo mapa conceptual, orientado a competencias y resultados de aprendizaje en enfermería. Permite explorar información jerárquica y en ramas paralelas, con expansión dinámica y controles globales.
+
+## 2. Estructura del Proyecto
+
+```
+ACOFAEN/
+├── index.html        # HTML principal, semántico y accesible
+├── style.css         # Estilos con variables CSS y gradientes
+├── script.js         # Lógica recursiva, controles, accesibilidad
+├── datos.js          # Dataset jerárquico (editable)
+├── .editorconfig     # Reglas de indentación (2 espacios)
+└── README.md         # Documentación y pautas de uso
+```
+
+## 3. Requisitos para Integración
+- **Servidor web:** Cualquier servidor capaz de servir archivos estáticos (Apache, Nginx, IIS, Vercel, Netlify, GitHub Pages, etc.).
+- **Permisos:** Acceso de lectura a los archivos del proyecto.
+- **Navegador:** Compatible con HTML5, CSS3 y JavaScript ES6+ (todos los navegadores modernos).
+- **Ruta de acceso:** Los archivos deben estar en una carpeta accesible desde la web institucional, por ejemplo:  `https://institucion.edu.co/recursos/ACOFAEN/`
+
+## 4. Condiciones para Anidamiento en Página Institucional
+
+### Opción A: Iframe (Recomendado para integración rápida)
+Inserta el visualizador en cualquier página institucional usando:
+```html
+<iframe src="/recursos/ACOFAEN/index.html" width="100%" height="800" style="border:none;" title="Mapa Conceptual ACOFAEN"></iframe>
+```
+El iframe es accesible, mantiene el foco y la navegación por teclado.
+
+### Opción B: Inclusión Directa (Avanzado)
+- Copia el contenido de `index.html`, `style.css`, `script.js` y `datos.js` en la estructura de la web institucional.
+- Asegúrate de que las rutas de los archivos sean relativas al sitio institucional.
+- Incluye los scripts en el orden correcto:
+```html
+<script src="datos.js"></script>
+<script src="script.js"></script>
+```
+- Mantén el contenedor principal:
+```html
+<div id="visor-arbol"></div>
+```
+
+## 5. Accesibilidad
+- Navegación por teclado (Tab, Enter, Espacio).
+- Roles ARIA (`tree`, `treeitem`, `aria-expanded`).
+- Foco visible y skip-link para saltar al contenido.
+- Compatible con lectores de pantalla.
+
+## 6. Personalización
+- Colores y gradientes editables en `style.css` (`:root` variables).
+- Dataset ampliable en `datos.js` (estructura flexible, admite hijos y ramas paralelas).
+- Botones globales para expandir/contraer todo.
+
+## 7. Condiciones de Mantenimiento
+- Mantener la estructura de archivos y rutas.
+- Validar sintaxis de `datos.js` antes de publicar (`node datos.js`).
+- Actualizar documentación en `README.md` ante cambios relevantes.
+
+## 8. Recomendaciones de Seguridad
+- No incluir datos sensibles en `datos.js`.
+- Limitar permisos de escritura en el servidor a usuarios autorizados.
+
+## 9. Licencia y Uso
+- Proyecto educativo de código abierto. Uso libre con atribución a ACOFAEN.
+
+---
