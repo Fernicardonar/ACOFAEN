@@ -151,25 +151,52 @@ ACOFAEN/
 
 ## 4. Condiciones para Anidamiento en Página Institucional
 
-### Opción A: Iframe (Recomendado para integración rápida)
-Inserta el visualizador en cualquier página institucional usando:
-```html
-<iframe src="/recursos/ACOFAEN/index.html" width="100%" height="800" style="border:none;" title="Mapa Conceptual ACOFAEN"></iframe>
-```
-El iframe es accesible, mantiene el foco y la navegación por teclado.
+## 4. Procedimiento y Mejores Prácticas para Anidar el Visualizador en una Página Web Existente
 
-### Opción B: Inclusión Directa (Avanzado)
-- Copia el contenido de `index.html`, `style.css`, `script.js` y `datos.js` en la estructura de la web institucional.
-- Asegúrate de que las rutas de los archivos sean relativas al sitio institucional.
-- Incluye los scripts en el orden correcto:
-```html
-<script src="datos.js"></script>
-<script src="script.js"></script>
-```
-- Mantén el contenedor principal:
-```html
-<div id="visor-arbol"></div>
-```
+### Opción Recomendada: Integración mediante Iframe o Enlace (Desacoplada y mantenible)
+
+**¿Dónde se anida?**
+El visualizador se aloja en una carpeta accesible del servidor institucional (por ejemplo, `/recursos/ACOFAEN/`). No es necesario modificar el código fuente de la página principal, solo agregar un enlace o un iframe.
+
+**Procedimiento:**
+1. **Sube la carpeta completa del proyecto** (`index.html`, `style.css`, `script.js`, `datos.js`) al servidor institucional en una ruta pública.
+2. **Desde cualquier página web existente**, puedes:
+  - **Agregar un enlace** que abra el visualizador en una nueva pestaña:
+    ```html
+    <a href="/recursos/ACOFAEN/index.html" target="_blank" rel="noopener">Ver Mapa Conceptual ACOFAEN</a>
+    ```
+  - **O incrustar el visualizador directamente** usando un iframe:
+    ```html
+    <iframe src="/recursos/ACOFAEN/index.html" width="100%" height="800" style="border:none;" title="Mapa Conceptual ACOFAEN"></iframe>
+    ```
+3. **No es necesario copiar ni modificar archivos** del visualizador en la web principal. El mantenimiento y las actualizaciones se realizan solo en la carpeta del visualizador.
+
+**Ventajas de esta opción:**
+- Separación total entre el visualizador y la web principal (fácil mantenimiento y actualización).
+- No hay conflictos de estilos ni scripts.
+- Accesibilidad y navegación por teclado garantizadas.
+- Permite compartir el visualizador mediante enlace directo.
+
+### Opción Avanzada: Inclusión Directa en el Código de la Página Principal
+
+**¿Dónde se anida?**
+Si se requiere que el visualizador forme parte del DOM de la página principal (sin iframe), debes copiar el contenido de los archivos del visualizador (`index.html`, `style.css`, `script.js`, `datos.js`) e integrarlos manualmente en la estructura de la web institucional.
+
+**Procedimiento:**
+1. Copia el HTML principal dentro del `<body>` de la página institucional.
+2. Incluye los estilos en el `<head>` o como archivo CSS vinculado.
+3. Incluye los scripts en el orden correcto antes de cerrar el `<body>`:
+  ```html
+  <script src="datos.js"></script>
+  <script src="script.js"></script>
+  ```
+4. Mantén el contenedor principal:
+  ```html
+  <div id="visor-arbol"></div>
+  ```
+5. Ajusta rutas y verifica que no haya conflictos de estilos o scripts globales.
+
+**Nota:** Esta opción solo se recomienda si necesitas una integración total y tienes control sobre el código fuente de la web principal. Para la mayoría de los casos institucionales, el uso de iframe y enlace es la forma más sencilla, robusta y mantenible.
 
 ## 5. Accesibilidad
 - Navegación por teclado (Tab, Enter, Espacio).
