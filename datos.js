@@ -245,6 +245,167 @@ const datosDelMapa = [
             "titulo": "Enfermería específica",
             "hijos": [
               { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
+              { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
                   {
@@ -537,6 +698,167 @@ const datosDelMapa = [
           {
             "titulo": "Enfermería específica",
             "hijos": [
+              { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
               { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
@@ -996,6 +1318,167 @@ const datosDelMapa = [
             "titulo": "Enfermería específica",
             "hijos": [
               { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
+              { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
                   {
@@ -1291,6 +1774,167 @@ const datosDelMapa = [
           {
             "titulo": "Enfermería específica",
             "hijos": [
+              { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
               { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
@@ -1636,6 +2280,167 @@ const datosDelMapa = [
             "titulo": "Enfermería específica",
             "hijos": [
               { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
+              { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
                   {
@@ -1978,6 +2783,167 @@ const datosDelMapa = [
           {
             "titulo": "Enfermería específica",
             "hijos": [
+              { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
               { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
@@ -2492,6 +3458,167 @@ const datosDelMapa = [
             "titulo": "Enfermería específica",
             "hijos": [
               { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
+              { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
                   {
@@ -2835,6 +3962,167 @@ const datosDelMapa = [
             "titulo": "Enfermería específica",
             "hijos": [
               { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
+              { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
                   {
@@ -3166,6 +4454,167 @@ const datosDelMapa = [
             "titulo": "Enfermería específica",
             "hijos": [
               { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
+              { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
                   {
@@ -3496,6 +4945,167 @@ const datosDelMapa = [
             "titulo": "Enfermería específica",
             "hijos": [
               { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
+              { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
                   {
@@ -3825,6 +5435,167 @@ const datosDelMapa = [
           {
             "titulo": "Enfermería específica",
             "hijos": [
+              { 
+                "titulo": "Salud pública y salud comunitaria",
+                "hijos": [
+                  {
+                    "titulo": "Estilos de vida saludables",
+                  "hijos": [
+                      { "titulo": "Actividad física" },
+                      { "titulo": "Nutricion y alimentacion saludable" },
+                      { "titulo": "Prevención del consumo de tabaco" },
+                      { "titulo": "peso saludable" },
+                      { "titulo": "lavado de manos" },
+                      { "titulo": "salud bucal, visual y auditiva" },
+                      { "titulo": "entorno laboral formal saludable" },,
+                  ]
+                  },
+                  {
+                    "titulo": "Poblaciones vulnerables",
+                  "hijos": [
+                      { "titulo": "Enfoque de curso de vida" },
+                      { "titulo": "Primera infancia" },
+                      { "titulo": "Momento del curso de vida" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades transmisibles.",
+                    "hijos": [
+                      { "titulo": "COVID -19, IRA, Aedes aegypti (Zika, dengue, chikunguna), chagas, enfermedades infecciosas desatendidas, Malaria, Lepra, Ébola, Geohelmintiasis, Hepatitis , Sarampión, IAAS y RAM (Resistencia antimicrobiana), Tuberculosis, Leishmaniasis, Toxoplasmosis, Enfermedades transmitidas por alimentos, Escabiosis, HTLV 1 (Virus linfotrópico de células T Humanas)" },
+                  ]
+                  },
+                  {
+                    "titulo": "Enfermedades no transmisibles.",
+                    "hijos": [
+                      { "titulo": "Prevencion del cancer." },
+                      { "titulo": "Diabetes" },
+                      { "titulo": "Enfermedad pulmonar obstructiva crónica" },
+                      { "titulo": "Enfermedades huérfanas" },
+                      { "titulo": "Cuidados paliativos" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud sexual y reproductiva.",
+                    "hijos": [
+                      { "titulo": "Sexualidad y derechos." },
+                      { "titulo": "Violencia de género" },
+                      { "titulo": "Salud materna" },
+                      { "titulo": "Anticoncepción" },
+                      { "titulo": "cánceres relacionados con la sexualidad" },
+                      { "titulo": "Infección de transmisión sexual (ITS VIH SIDA)" },
+                      { "titulo": "Prevencion de aborto inseguro" },
+                      { "titulo": "interrupción voluntaria del embarazo IVE" },
+
+                  ]
+                  },
+                  {
+                    "titulo": "Epidemiología y demografía.",
+                    "hijos": [
+                      { "titulo": "Planeación de la salud pública" },
+                      { "titulo": "Plan Decenal de salud pública" },
+                      { "titulo": "Analisis de situacion de salud" },
+                      { "titulo": "Comisión intersectorial de salud pública" },
+                      { "titulo": "Planes territoriales de salud" },
+                      { "titulo": "Gestión del conocimiento y fuentes de información" },
+                      { "titulo": "Sistema Nacional de Estudios y encuestas poblacionales para la salud." },
+                      { "titulo": "Gestión de registros administrativos" },
+                      { "titulo": "Observatorios en salud" },
+                      { "titulo": "Sistema de información" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Sistema de vigilancia en salud pública" },
+                      { "titulo": "Reglamento sanitario internacional." },
+                      { "titulo": "Vigilancia en SP con enfoque comunitario." },
+                      { "titulo": "Red nacional de laboratorios." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud ambiental.",
+                    "hijos": [
+                      { "titulo": "Agua y saneamiento básico" },
+                      { "titulo": "Inspección vigilancia y control sanitario" },
+                      { "titulo": "Seguridad química" },
+                      { "titulo": "Mercurio " },
+                      { "titulo": "Aire y salud" },
+                      { "titulo": "Entornos saludables" },
+                      { "titulo": "Zoonosis" },
+                      { "titulo": "Cambio climático" },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud mental y sustancia psicoactivas.",
+                    "hijos": [
+                      { "titulo": "Sustancias Psicoactivas (Prevención y atención al consumo)" },
+                      { "titulo": "Salud mental (gestión integrada)" },
+                      { "titulo": "Políticas " },
+                      { "titulo": "Promoción de la convivencia y prevención de violencias " },
+                  ]
+                  },
+                  {
+                    "titulo": "Vacunación",
+                    "hijos": [
+                      { "titulo": "Esquema de vacunación" },
+                      { "titulo": "Vacuna VPH." },
+                  ]
+                  },
+                  {
+                    "titulo": "Salud nutricional.",
+                    "hijos": [
+                      { "titulo": "Alimentacion y nutricion lactancoia materna " },
+                      { "titulo": "Control de deficiencia de micronutrientes" },
+                      { "titulo": "alimentación saludable" },
+                      { "titulo": "Inocuidad y calidad de alimentos " },
+                      { "titulo": "Política de seguridad alimentaria y nutricional" },
+                  ]
+                  },
+                  {
+                    "titulo": "Gestión territorial en emergencias y desastres.",
+                    "hijos": [
+                      { "titulo": "Participación social en salud" },
+                      { "titulo": "Gestión territorial en salud" },
+                      { "titulo": "Gestión del riesgo de desastres en salud" },
+                  ]
+                  },
+                  {
+                    "titulo": "Roles de gestor y productor de salud pública.",
+                    "hijos": [
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria " },
+                      { "titulo": "Indicadores de Salud y Desarrollo" },
+                      { "titulo": "Gestión y Evaluación de Metas " },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas " },
+                      { "titulo": "Bases de la Salud Pública y Políticas Integradas" },
+                      { "titulo": "Participación Comunitaria" },
+                      { "titulo": "Indicadores de Salud y Desarrollo." },
+                      { "titulo": "Gestión y Evaluación de Metas" },
+                      { "titulo": "Análisis Epidemiológico y Determinantes de Salud" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Metas de Morbilidad y Mortalidad Evitables" },
+                      { "titulo": "Promoción de Estilos de Vida Saludable" },
+                      { "titulo": "Atención Primaria y Modelos Comunitarios" },
+                      { "titulo": "Intervenciones Colectivas" },
+                  ]
+                  },
+                  {
+                    "titulo": "plan nacional de salud pública 2022 - 2030.",
+                    "hijos": [
+                      { "titulo": "Derecho fundamental en salud y DESCA “Derechos Económicos, Sociales, Culturales y Ambientales”(puede darse igual desde legislación en salud etc.)" },
+                      { "titulo": "Determinantes sociales en salud DSS  e Inequidades" },
+                      { "titulo": "Diversidad, Interculturalidad, Interseccionalidad" },
+                      { "titulo": "Desarrollo humano sostenible " },
+                      { "titulo": "Gestión Integral de la Atención Primaria en Salud (APS)" },
+                      { "titulo": "Gestión Integral del Riesgo en Salud Pública (GIRS)" },
+                      { "titulo": "Participación Social y Comunitaria" },
+                      { "titulo": "Vigilancia en Salud Pública" },
+                      { "titulo": "Salud Digital y Sistemas de Información" },
+                  ]
+                  },
+              ]
+              },
               { 
                 "titulo": "Salud materno perinatal y salud sexual y reproductiva",
                 "hijos": [
