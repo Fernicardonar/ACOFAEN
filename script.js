@@ -62,28 +62,33 @@ function construirArbol(nodos) {
                 const colElem = document.createElement('div');
                 colElem.className = 'columna elementos';
                 const h4 = document.createElement('h4');
-                h4.textContent = 'Elementos de competencia';
+                h4.textContent = 'Componentes de competencia';
                 colElem.appendChild(h4);
                 const ulElem = construirArbol(nodo.elementos);
                 colElem.appendChild(ulElem);
                 contParalelas.appendChild(colElem);
             }
 
-            if (tieneResultados) {
-                const colRes = document.createElement('div');
-                colRes.className = 'columna resultados';
-                const h4 = document.createElement('h4');
-                h4.textContent = 'Resultados de aprendizaje';
-                colRes.appendChild(h4);
-                const ulRes = construirArbol(nodo.resultados);
-                colRes.appendChild(ulRes);
-                contParalelas.appendChild(colRes);
-            }
-
             li.appendChild(contParalelas);
         } else if (nodo.hijos && nodo.hijos.length > 0) {
             li.classList.add('expandible');
             li.setAttribute('aria-expanded', 'false');
+
+            // Guardar referencia para insertar el h4 dinámicamente
+            li._insertEjes = false;
+
+            // Marcar los títulos que deben mostrar el h4 al expandirse
+            // Normalizar para comparar sin tildes ni mayúsculas
+            const tit = (nodo.titulo || '').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            const titSinEspacios = tit.replace(/\s+/g, ' ');
+            const mostrarEjes =
+                titSinEspacios === 'fundamentacion o basico' ||
+                titSinEspacios === 'disciplinar profesional: enfermeria' ||
+                titSinEspacios === 'flexibilidad, libre eleccion o electivas';
+            if (mostrarEjes) {
+                li._insertEjes = true;
+            }
+
             const ulHijos = construirArbol(nodo.hijos);
             ulHijos.classList.add('hijos');
             ulHijos.setAttribute('role', 'group');
@@ -112,6 +117,31 @@ function manejarToggle(spanTitulo) {
         liPadre.classList.toggle('expandido');
         const expandido = liPadre.classList.contains('expandido');
         liPadre.setAttribute('aria-expanded', String(expandido));
+
+        // Mostrar/ocultar h4 "Ejes de conocimiento" dinámicamente
+        if (liPadre._insertEjes) {
+            if (expandido) {
+                // Solo agregar si no existe ya
+                if (!liPadre.querySelector('h4.ejes-conocimiento')) {
+                    const h4Ejes = document.createElement('h4');
+                    h4Ejes.textContent = 'Ejes de conocimiento';
+                    h4Ejes.className = 'ejes-conocimiento';
+                    h4Ejes.style.fontWeight = 'bold';
+                    h4Ejes.style.margin = '18px 0 8px 0';
+                    // Insertar después del título y descripción si existe
+                    let refNode = liPadre.querySelector('span.titulo');
+                    if (liPadre.querySelector('.descripcion')) {
+                        refNode = liPadre.querySelector('.descripcion');
+                    }
+                    refNode.after(h4Ejes);
+                }
+            } else {
+                // Ocultar/eliminar el h4 cuando se colapsa
+                const h4Ejes = liPadre.querySelector('h4.ejes-conocimiento');
+                if (h4Ejes) h4Ejes.remove();
+            }
+        }
+
         setTimeout(() => {
             if (expandido) {
                 spanTitulo.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -147,34 +177,9 @@ function agregarControlesGlobales() {
  * Crear botón estilizado
  */
 function crearBoton(texto, callback) {
-  const btn = document.createElement('button');
-  btn.textContent = texto;
-  btn.style.cssText = `
-    background: white;
-    color: #667eea;
-    border: 2px solid #667eea;
-    padding: 8px 16px;
-    margin: 0 5px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 0.95em;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  `;    btn.addEventListener('mouseenter', () => {
-        btn.style.background = '#667eea';
-        btn.style.color = 'white';
-        btn.style.transform = 'translateY(-2px)';
-        btn.style.boxShadow = '0 4px 12px rgba(102, 126, 234, 0.4)';
-    });
-    
-    btn.addEventListener('mouseleave', () => {
-        btn.style.background = 'white';
-        btn.style.color = '#667eea';
-        btn.style.transform = 'translateY(0)';
-        btn.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
-    });
-    
+    const btn = document.createElement('button');
+    btn.textContent = texto;
+    btn.className = 'btn-global';
     btn.addEventListener('click', callback);
     return btn;
 }

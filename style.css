@@ -1,19 +1,40 @@
+/* === Botones globales === */
+.btn-global {
+    background: #114e85;
+    color: #fff;
+    border: 2px solid #032854;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95em;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(3,40,84,0.08);
+}
+.btn-global:hover, .btn-global:focus {
+    background: #032854;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(17,78,133,0.18);
+}
+
 /* === style.css === */
 /* Variables y temas */
 :root {
-    --gradient-body: linear-gradient(135deg, #4b1fa2 0%, #1a237e 60%, #764ba2 100%);
-    --gradient-expandible-root: linear-gradient(135deg, #4b1fa2 0%, #1a237e 100%);
-    --gradient-depth-1: linear-gradient(135deg, #1976d2 0%, #2196f3 100%);
-    --gradient-depth-2: linear-gradient(135deg, #512da8 0%, #7c4dff 100%);
-    --gradient-depth-3: linear-gradient(135deg, #00bcd4 0%, #00e5ff 100%);
-    --gradient-leaf: linear-gradient(135deg, #ffffff 0%, #e3f2fd 100%);
-    --color-primary: #4b1fa2;
-    --color-primary-dark: #1a237e;
-    --color-surface: #1a237e;
-    --color-surface-alt: #512da8;
-    --color-border: #311b92;
-    --color-text-dark: #ffffff;
-    --color-text-light: #ffffff;
+    --gradient-body: linear-gradient(135deg, #c4dff3 0%, #2b9df4 100%);
+    --gradient-expandible-root: linear-gradient(135deg, #032854 0%, #165f9d 100%);
+    --gradient-depth-1: linear-gradient(135deg, #165f9d 0%, #114e85 100%);
+    --gradient-depth-2: linear-gradient(135deg, #114e85 0%, #2b9df4 100%);
+    --gradient-depth-3: linear-gradient(135deg, #2b9df4 0%, #c4dff3 100%);
+    --gradient-leaf: linear-gradient(135deg, #c4dff3 0%, #ffffff 100%);
+    --color-primary: #114e85;
+    --color-primary-dark: #032854;
+    --color-surface: #165f9d;
+    --color-surface-alt: #2b9df4;
+    --color-border: #032854;
+    --color-text-dark: #032854;
+    --color-text-light: #114e85;
     --radius-sm: 5px;
     --radius-md: 8px;
     --radius-lg: 15px;
@@ -23,10 +44,10 @@
     --space-lg: 20px;
     --transition-fast: 0.3s ease;
     --transition-slow: 0.4s ease-in-out;
-    --shadow-sm: 0 2px 5px rgba(0,0,0,0.1);
-    --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
-    --shadow-card: 0 10px 40px rgba(0,0,0,0.3);
-    --focus-ring: 0 0 0 3px rgba(102,126,234,0.5);
+    --shadow-sm: 0 2px 5px rgba(3,40,84,0.08);
+    --shadow-md: 0 4px 12px rgba(17,78,133,0.12);
+    --shadow-card: 0 10px 40px rgba(22,95,157,0.18);
+    --focus-ring: 0 0 0 3px rgba(43,157,244,0.3);
 }
 
 * {
@@ -38,22 +59,24 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: var(--gradient-body);
-    color: var(--color-text-light);
+    background: #c4dff3;
+    color: var(--color-primary-dark);
     padding: var(--space-lg);
     min-height: 100vh;
 }
 
+
 h1 {
-    color: #fff;
+    color: #032854;
     text-align: center;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 8px #311b92;
+    text-shadow: 2px 2px 8px #c4dff3;
     font-size: 2.5em;
 }
 
+
 p {
-    color: #fff;
+    color: #114e85;
     text-align: center;
     margin-bottom: 30px;
     font-size: 1.1em;
@@ -61,7 +84,7 @@ p {
 
 /* El contenedor principal del árbol */
 #visor-arbol {
-    background: rgba(26,35,126,0.85);
+    background: rgba(3,40,84,0.10);
     border-radius: var(--radius-lg);
     padding: 30px;
     box-shadow: var(--shadow-card);
@@ -103,16 +126,17 @@ p {
     display: inline-block;
     padding: 12px 20px;
     border-radius: 8px;
-    background: linear-gradient(135deg, #512da8 0%, #311b92 100%);
-    border: 2px solid #311b92;
+    background: linear-gradient(135deg, #114e85 0%, #165f9d 100%);
+    border: 2px solid #032854;
     transition: all 0.3s ease;
     font-weight: 500;
-    box-shadow: 0 2px 5px rgba(76,31,162,0.1);
+    box-shadow: 0 2px 5px rgba(3,40,84,0.08);
+    color: #fff;
 }
 
 #visor-arbol span.titulo:hover {
     transform: translateX(5px);
-    box-shadow: 0 4px 12px rgba(76,31,162,0.25);
+    box-shadow: 0 4px 12px rgba(43,157,244,0.18);
 }
 
 /* Descripción adicional (si existe) */
@@ -120,8 +144,8 @@ p {
     display: block;
     margin-top: 5px;
     padding: 10px 15px;
-    background: #311b92;
-    border-left: 3px solid #00bcd4;
+    background: #165f9d;
+    border-left: 3px solid #2b9df4;
     border-radius: 5px;
     font-size: 0.9em;
     color: #fff;
@@ -141,13 +165,13 @@ p {
 #visor-arbol li.expandible > span.titulo {
     cursor: pointer;
     background: var(--gradient-expandible-root);
-    color: var(--color-text-light);
-    border-color: #00bcd4;
+    color: #fff;
+    border-color: #2b9df4;
     font-weight: 600;
 }
 
 #visor-arbol li.expandible > span.titulo:hover {
-    background: linear-gradient(135deg, #1976d2 0%, #512da8 100%);
+    background: linear-gradient(135deg, #2b9df4 0%, #165f9d 100%);
     transform: translateX(8px) scale(1.02);
 }
 
@@ -205,13 +229,13 @@ p {
 #visor-arbol ul ul ul ul li.expandible > span.titulo { background: var(--gradient-depth-3); }
 #visor-arbol li:not(.expandible) > span.titulo {
     background: var(--gradient-leaf);
-    border-left: 4px solid #00bcd4;
-    color: #311b92;
+    border-left: 4px solid #2b9df4;
+    color: #032854;
 }
 
 #visor-arbol li:not(.expandible) > span.titulo:hover {
-    background: linear-gradient(135deg, #e3f2fd 0%, #b3e5fc 100%);
-    border-left-color: #1976d2;
+    background: linear-gradient(135deg, #c4dff3 0%, #2b9df4 100%);
+    border-left-color: #114e85;
 }
 
 /* Scroll suave */
@@ -244,18 +268,18 @@ p {
 }
 
 #visor-arbol .paralelas .columna {
-    background: rgba(76,31,162,0.12);
-    border: 1px solid #311b92;
+    background: rgba(17,78,133,0.08);
+    border: 1px solid #165f9d;
     border-radius: 10px;
     padding: 12px 14px;
-    box-shadow: 0 1px 3px rgba(76,31,162,0.08);
+    box-shadow: 0 1px 3px rgba(22,95,157,0.08);
 }
 
 #visor-arbol .paralelas .columna h4 {
     margin-bottom: 8px;
     font-size: 0.95rem;
-    color: #311b92;
-    border-left: 4px solid #00bcd4;
+    color: #114e85;
+    border-left: 4px solid #2b9df4;
     padding-left: 8px;
 }
 

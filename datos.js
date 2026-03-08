@@ -7,13 +7,13 @@
 const datosDelMapa = [
   
   {
-    "titulo": "COMPETENCIA 1: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE01-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Proveer el cuidado de enfermería teniendo en cuenta el proceso de atención de enfermería dirigido a la persona, familia y comunidad, aplicando el juicio clínico en diferentes niveles de atención, complejidad y estrategias de salud. DOMINIO: Cuidado de enfermería para la vida, el bienestar y la salud humana.",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        titulo: "Núcleo de conocimiento: Fundamentación o básico",
+        titulo: "Fundamentación o básico",
         "hijos": [
           {
             "titulo": "Matemáticas y ciencias naturales",
@@ -197,7 +197,7 @@ const datosDelMapa = [
       },
 
      {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -645,13 +645,13 @@ const datosDelMapa = [
   },
 
   {
-    "titulo": "COMPETENCIA 2: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE02-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Implementar el Plan de Atención de Enfermería (PAE) y sus intervenciones de acuerdo con las necesidades de salud de la persona (paciente, familia y comunidad) de forma integral, diferencial, inclusiva, intercultural y con relacionamiento interprofesional. DOMINIO: Cuidado de enfermería para la vida, el bienestar y la salud humana. DOMINIO:Educación y comunicación terapeútica para el cuidado de enfermería.",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
      {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -1080,13 +1080,13 @@ const datosDelMapa = [
     ]
   },
  {
-    "titulo": "COMPETENCIA 3: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE03-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Coordinar la prestación de servicios de enfermería y de salud centrados en la persona, la familia y comunidad de acuerdo con los principios de calidad de atención y metodologías de evidencia científica. DOMINIO:Cuidado de enfermería para la vida, el bienestar y la salud humana. DOMINIO: Educación y comunicación terapeútica para el cuidado de enfermería",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        titulo: "Núcleo de conocimiento: Fundamentación o básico",
+        titulo: "Fundamentación o básico",
         "hijos": [
           {
             "titulo": "Matemáticas y ciencias naturales",
@@ -1270,7 +1270,7 @@ const datosDelMapa = [
       },
 
      {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -1721,13 +1721,13 @@ const datosDelMapa = [
     ]
   },
   {
-    "titulo": "COMPETENCIA 4: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE04-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Capacitar al personal a cargo teniendo en cuenta las necesidades y situaciones de salud presentes. DOMINIO: Educación y comunicación terapeútica para el cuidado de enfermería",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -2096,7 +2096,7 @@ const datosDelMapa = [
         ]
       },
       {
-       "titulo": "Enfermería de profundización",
+       "titulo": "Flexibilidad, libre elección o electivas",
         "hijos": [
           { 
            "titulo": "Cuidado crítico y urgencias",
@@ -2226,13 +2226,13 @@ const datosDelMapa = [
     ]
   },
   {
-    "titulo": "COMPETENCIA 5: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE05-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Realizar consulta de enfermería a la persona (paciente, familia y comunidad) promoción de estilos de vida saludable, prevención de factores y condiciones de riesgo, procesos terapéuticos y consejería apoyada en los recursos tecnológicos disponibles de acuerdo con las necesidades de salud identificadas. DOMINIO:Cuidado de enfermería para la vida, el bienestar y la salud humana. DOMINIO:Educación y comunicación terapeútica para el cuidado de enfermería.",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -2601,7 +2601,7 @@ const datosDelMapa = [
         ]
       },
       {
-       "titulo": "Enfermería de profundización",
+       "titulo": "Flexibilidad, libre elección o electivas",
         "hijos": [
           { 
            "titulo": "Cuidado crítico y urgencias",
@@ -2730,13 +2730,13 @@ const datosDelMapa = [
     ]
   },
   {
-    "titulo": "COMPETENCIA 6: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE06-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Cumplir con principios y valores éticos y bioéticos, en el acto de cuidado de enfermería teniendo en cuenta el respeto a la vida, la dignidad y derechos humanos. DOMINIO: Cuidado de enfermería para la vida, el bienestar y la salud humana.",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -3105,7 +3105,7 @@ const datosDelMapa = [
         ]
       },
       {
-       "titulo": "Enfermería de profundización",
+       "titulo": "Flexibilidad, libre elección o electivas",
         "hijos": [
           { 
            "titulo": "Cuidado crítico y urgencias",
@@ -3221,13 +3221,13 @@ const datosDelMapa = [
     ]
   },
   {
-    "titulo": "COMPETENCIA 7: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE07-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Participar en procesos de investigación orientados al fortalecimiento e innovación de la práctica de acuerdo con las necesidades de la disciplina y la salud. DOMINIO: Investigación y proyección social para el cuidado de enfermería.",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        titulo: "Núcleo de conocimiento: Fundamentación o básico",
+        titulo: "Fundamentación o básico",
         "hijos": [
           {
             "titulo": "Matemáticas y ciencias naturales",
@@ -3410,7 +3410,7 @@ const datosDelMapa = [
         ]
       },
       {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -3779,7 +3779,7 @@ const datosDelMapa = [
         ]
       },
       {
-       "titulo": "Enfermería de profundización",
+       "titulo": "Flexibilidad, libre elección o electivas",
         "hijos": [
           { 
            "titulo": "Cuidado crítico y urgencias",
@@ -3908,13 +3908,13 @@ const datosDelMapa = [
     ]
   },
   {
-    "titulo": "COMPETENCIA 8: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE08-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Liderar procesos de sostenibilidad y respeto ambiental en su ejercicio profesional según los diferentes niveles de atención en salud. DOMINIO: Liderazgo y gestión en el cuidado de enfermería.",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -4283,7 +4283,7 @@ const datosDelMapa = [
         ]
       },
       {
-       "titulo": "Enfermería de profundización",
+       "titulo": "Flexibilidad, libre elección o electivas",
         "hijos": [
           { 
            "titulo": "Cuidado crítico y urgencias",
@@ -4400,13 +4400,13 @@ const datosDelMapa = [
     ]
   },
   {
-    "titulo": "COMPETENCIA 9: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE09-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Cooperar en la construcción de políticas, planes, programas y proyectos de acuerdo con las necesidades del ejercicio del profesional de enfermería y de las condiciones de salud de la población. DOMINIO:Gobernanza y autonomía de práctica en enfermeria.",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -4775,7 +4775,7 @@ const datosDelMapa = [
         ]
       },
       {
-       "titulo": "Enfermería de profundización",
+       "titulo": "Flexibilidad, libre elección o electivas",
         "hijos": [
           { 
            "titulo": "Cuidado crítico y urgencias",
@@ -4891,13 +4891,13 @@ const datosDelMapa = [
     ]
   },
   {
-    "titulo": "COMPETENCIA 10: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE10-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Interactuar en la planificación, implementación y evaluación de la atención en la salud con el equipo interprofesional teniendo en cuenta los aportes de las diferentes profesiones y normas de identificación, seguimiento, control y notificación de eventos de interés de salud pública. DOMINIO:Gobernanza y autonomía de práctica en enfermeria..",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
@@ -5266,7 +5266,7 @@ const datosDelMapa = [
         ]
       },
       {
-       "titulo": "Enfermería de profundización",
+       "titulo": "Flexibilidad, libre elección o electivas",
         "hijos": [
           { 
            "titulo": "Cuidado crítico y urgencias",
@@ -5382,13 +5382,13 @@ const datosDelMapa = [
     ]
   },
   {
-    "titulo": "COMPETENCIA 11: ",
+    "titulo": "COMPETENCIA ESPECÍFICA CE11-6-SABI-EPS-22210-E-002: ",
     "descripcion": "Comunicar el cuidado de enfermería a la persona (paciente, familia y comunidad) y equipo sanitario de acuerdo con situación de salud individual y colectiva, el contexto social, cultural, habilidades y destrezas terapéuticas en la comunicación e interacción en enfermería. DOMINIO: Educacion y comunicacion terapeutica para el cuidado de enfermeria.",
     elementos: [
-      { titulo: "Contenidos",
+      { titulo: "Núcleos de conocimiento",
       hijos: [
       {
-        "titulo": "Núcleo disciplinar profesional: Enfermería",
+        "titulo": "Disciplinar profesional: Enfermería",
         "hijos": [
           {
             "titulo": "Enfermería Básica",
